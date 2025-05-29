@@ -1,0 +1,53 @@
+body{
+    overflow: visible;
+    background-color: azure;
+}
+
+.header{
+    font-size-adjust: 0.7;
+    text-align: center;
+}
+#title:hover{font-style: italic;}
+
+.intro{
+    text-align: center;
+    line-height: 20px;
+    font-size: x-large;
+}
+
+article.article:not(h1,h2,h3,h4,h5,h6){font-size: x-large;}
+
+article.article h1 {
+    font-size-adjust: 0.6 !important;
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    font-size-adjust: 0.4;
+    font-family: monospace;
+}
+
+#redacted{
+    transform: scaleY(2);
+    font-family: Impact, Haettenschweiler;
+    scale: 1.1;
+    display: inline-block;
+    animation: glitch 5s infinite;
+}
+
+@keyframes glitch {
+    49% {scale: 1;}
+    50% {scale: 2;}
+    51% {scale: 1;}
+}
+
+main{
+    margin-bottom: 2em;
+    padding-left: 0.4em;
+}
+
+input{
+    overflow: visible;
+    display: grid !important;
+}
+
