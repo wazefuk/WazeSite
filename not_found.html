@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bruh</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/Main.css">
+        <link rel="icon" href="favicon.ico">
+        <style>
+            body{cursor: not-allowed;}
+            h1 {animation: whyistheheaderbreathing 4.1s infinite;}
+            @keyframes whyistheheaderbreathing {
+                0%, 100% {transform: scaleX(1);}
+                70% {transform: scaleX(1.2);}
+            }
+            
+            .polite{
+                background-color: lightpink !important;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                cursor: default;
+            }
+    </style>
+    </head>
+    <body>
+    <h1 onclick="AlertThing()" id="title">Bruh!!!!</h1>
+    <p>404: Page not found<br><br>Either:</p>
+    <ul id="404reasons">
+        <li>You manually entered a url and made a typo or went to a nonexistent page</li>
+        <li>The website is unfinished and the page hasn't been created yet</li>
+        <li>I misspelled the link</li>
+        <li>The page you're accessing was moved and the link you clicked was never updated</li>
+        <li>The page was deleted</li>
+        <li>The servers are being stupid</li>
+    </ul>
+    <p>If it's not because of #1, #2, or #6, let me know on my <a href="Socials.html">socials</a>. You can go back to the main page <a href="index.html">here</a>.</p>
+    <button style="font-size: small;" onclick="PoliteMode()">Toggle Polite Mode</button>
+    <script src="JS/404Funny.js"></script>
+    </body>
+</html>
