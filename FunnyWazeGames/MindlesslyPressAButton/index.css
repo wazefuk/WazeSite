@@ -1,0 +1,80 @@
+#title{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 4.5em;
+    color: rebeccapurple;
+    font-weight: bolder;
+    margin-bottom: 1.5em;
+}
+
+#button{
+    display: block;
+    margin: auto;
+    border: hidden;
+    background-color: inherit;
+    font-size: 4em;
+    font-family: arial;
+    font-weight: 900;
+    transform: scaleX(1.15);
+    margin-bottom: 3.2em;
+    color: blueviolet
+}
+
+#clicksp{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    transform: scaleX(0.8);
+}
+
+#goldp{
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    transform: scaleX(0.8);
+    color: #c0c000;
+}
+
+#captiontext{
+    opacity: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+.shopheader{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 3.5em;
+    color: #7206d6;
+}
+
+.upgrade{
+    display: block;
+    margin: auto;
+    border: hidden;
+    background-color: inherit;
+    margin-bottom: 0.6em;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e3e35d;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.upr:hover{
+    font-weight: 900;
+    transform: scaleX(1.1) rotate(2deg);
+    opacity: 80%;
+    color: #ebeb98;
+}
+
+.upl:hover{
+    font-weight: 900;
+    transform: scaleX(1.1) rotate(-2deg);
+    opacity: 80%;
+    color: #ebeb98;
+}
