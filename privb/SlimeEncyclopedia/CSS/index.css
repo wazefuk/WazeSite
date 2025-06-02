@@ -1,0 +1,50 @@
+/* The main CSS style for the Slime Encyclopedia */
+body{
+    display: grid;
+    margin: 1.1em;
+    overflow-x: hidden;
+    line-height: 1.4em;
+    margin-top: 2em;
+    background-color: darkblue;
+}
+
+.title{ font-size: 3rem;margin-bottom: 2em; }
+
+div, main, nav, article{margin-bottom: 2.3em;}
+section {margin-bottom: 2.7em;} /* Because a section is, well, an entire section of a webpage, so why not make the margin-bottom bigger? */
+
+p,li,ul,ol,a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.1em;
+    font-weight: 600;
+    font-size-adjust: 0.7;
+    line-height: 1.65em;
+    color: snow;
+}
+
+a{ color: aqua !important; }
+.a_list { display: block; }
+
+h1,h2,h3,h4,h5,h6{
+    font-size-adjust: 0.7;
+    line-height: 1em;
+    color: white;
+    font-family: monospace, Times, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em; /* why am I using so many margin-bottoms?!?! */
+    text-align: center;
+}
+
+.header_cap{
+    font-size: 0.35em;
+    color: grey;
+    transform: rotate(2deg);
+    display: inline-block !important;
+    margin-left: 1.33rem;
+}
+
+hr{
+    color: aliceblue;
+    height: 2px;
+    border: inset;
+}
