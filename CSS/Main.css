@@ -1,53 +1,64 @@
-/* This file is for use as the default WazeSite style */
+/* This file is the main style for WazeSite */
 body{
-    font-family: Impact, Haettenschweiler;
     display: grid;
-    background-color: #3c46aa;
-    text-align: center;
-    padding: 20px;
+    background-color: darkblue;
     overflow-x: hidden;
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC');
+    font-family: 'Trebuchet MS';
 }
 
-div{margin-bottom: 1.7em;}
-
-p,li{
-    font-size: 1.5em;
-    color: whitesmoke; /* AKA "white but ever so slightly darker" */
+p{
     font-family: 'Trebuchet MS';
-    font-weight: bold;
+    font-size-adjust: 1;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.05em;
+}
+
+a{ /* I had to reuse some code from the p selector because making the selector p,a would break ul/ol lists with hyperlinks in them because of the text-align that refuses to be overwritten. */
+    display: block;
+    color: #31c3c3;
+    font-family: 'Trebuchet MS';
+    font-size-adjust: 1;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+}
+
+h1,h2,h3,h4,h5,h6,.header{
+    font-family: Impact, Haettenschweiler !important;
+    font-size-adjust: 1.6;
+    text-align: center;
+    transform: scaleX(1.2) scaleY(1.07);
+    display: block;
+    text-decoration: underline;
 }
 
 .title{
-    transform: scaleX(1.4);
-    font-size: 5em;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size-adjust: 3.33;
+    text-shadow: 2px 2px 100px rgba(0,0,200,0.6);
+    transform: scaleX(1.35);
     margin-bottom: 2.5em;
-    text-shadow: 2px 2px 3px grey;
-}
-
-h1:not(.title),h2,h3,h4,h5,h6{
-    font-family: Impact, Haettenschweiler;
-    font-size-adjust: 2;
-    transform: scaleX(1.2);
-    text-shadow: 1px 1px 1px darkblue;
     font-style: italic;
 }
 
-hr{
-    overflow: hidden;
-    color: white;
-    border-top: 3px double;
+div,article,nav{margin-bottom: 2.5em;}
+section{margin-bottom: 4em;}
+
+a:hover{
+    font-style: italic;
+    color: #68ffff;
+}
+a:visited{ color: #7deec8 !important; }
+
+li{
+    text-align: left !important;
+    margin: auto;
+    display: block;
 }
 
-ol,ul{
-    line-height: 2.3em;
-    border: thick inset;
-    border-radius: 7px;
+ul,ol{
+    margin: 5em;
+    border: inset 0.6em;
+    border-radius: 0;
 }
-
-li{transform: scaleY(1.1);}
-
-a{color: blue;}
-a:hover{color: #5656ff;}
-a:visited{font-style: italic;}
