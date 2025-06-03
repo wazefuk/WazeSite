@@ -62,3 +62,10 @@ ul,ol{
     border: inset 0.6em;
     border-radius: 0;
 }
+
+strong,b,.emph{
+    font-family: Impact, Haettenschweiler;
+    display: inline-block;
+    scale: 1.1;
+    transform: scaleY(1.3);    
+}
