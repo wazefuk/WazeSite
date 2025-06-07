@@ -19,4 +19,5 @@
 
 body {
     display: grid;
+    overflow-x: hidden;
 }

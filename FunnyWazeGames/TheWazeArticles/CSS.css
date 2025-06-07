@@ -15,7 +15,7 @@ body{
     font-size: x-large;
 }
 
-article.article:not(h1,h2,h3,h4,h5,h6){font-size: x-large;}
+article.article:not(h1,h2,h3,h4,h5,h6){ font-size: x-large; }
 
 article.article h1 {
     font-size-adjust: 0.6 !important;

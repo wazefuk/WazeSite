@@ -65,16 +65,11 @@
     text-decoration: underline;
 }
 
-.upr:hover{
+.upr:hover,.upl:hover{
     font-weight: 900;
-    transform: scaleX(1.1) rotate(2deg);
     opacity: 80%;
     color: #ebeb98;
 }
 
-.upl:hover{
-    font-weight: 900;
-    transform: scaleX(1.1) rotate(-2deg);
-    opacity: 80%;
-    color: #ebeb98;
-}
+.upr:hover{ transform: scaleX(1.1) rotate(2deg); }
+.upl:hover{ transform: scaleX(1.1) rotate(-2deg); }

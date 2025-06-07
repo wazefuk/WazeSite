@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
 }
 
-div {margin-bottom: 2.7em;}
+div { margin-bottom: 2.7em; }
 
 h1:not(.title),h2,h3,h4,h5,h6{
     color: white;
