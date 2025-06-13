@@ -9,13 +9,26 @@ p,ul,ol,a{
     font-size: large;
 }
 
-.Disitus a{
+.Disitus a, .Jermy a{
     font-size: xx-large;
 }
 
-.Disitus{
+.Disitus,.Jermy{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px 13px;
+}
+
+
+#mike:hover {
+    transform: scaleX(2);
+    rotate: 31deg;
+    color: red;
+    animation: mike 3s infinite;
+}
+
+@keyframes mike{
+    0%,100%{transform: translateX(3);}
+    50%{transform: translateX(0);}
 }

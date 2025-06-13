@@ -20,6 +20,8 @@
     color: blueviolet
 }
 
+#button:hover{ cursor: pointer; }
+
 #clicksp{
     text-align: center;
     font-size: 2em;
@@ -65,11 +67,22 @@
     text-decoration: underline;
 }
 
+.upgrade::after,.upgrade::before,#goldp::after{
+    content: "✨";
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    opacity: 15%;
+}
+
 .upr:hover,.upl:hover{
     font-weight: 900;
     opacity: 80%;
     color: #ebeb98;
+    cursor: pointer;
 }
 
 .upr:hover{ transform: scaleX(1.1) rotate(2deg); }
 .upl:hover{ transform: scaleX(1.1) rotate(-2deg); }
+
+svg{ margin: 0; }
