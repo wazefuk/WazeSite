@@ -1,0 +1,9 @@
+body{
+    background-color: azure;
+    display: grid;
+}
+
+p{
+    font-size: x-large;
+    font-family: sans-serif;
+}
